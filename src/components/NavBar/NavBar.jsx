@@ -12,22 +12,22 @@ export default function NavBar({ user, updateUser }) {
   return (
     <nav className='NavBar navbar navbar-expand-sm '>
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">Tee Store</Link>
+        <Link className="navbar-brand  text-light" to="/">Tee Store</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <div className='navbar-nav'>
-            <NavLink className="nav-link"to={`/`}>Home</NavLink>       
-            <NavLink className="nav-link" to="/orders">Orders</NavLink>
-            <NavLink className="nav-link" to="/shoppingCart">Shopping Cart</NavLink>   
+            <NavLink className="nav-link text-light"to={`/`}>Home</NavLink>       
+            <NavLink className="nav-link text-light" to="/orders">Orders</NavLink>
+            <NavLink className="nav-link text-light" to="/shoppingCart">Shopping Cart</NavLink>   
             { !user ?
             <>
-              <NavLink className="nav-link" to='/login'>Login</NavLink>
+              <NavLink className="nav-link text-light" to='/login'>Login</NavLink>
             </>
             :
             <>
-              <button className="nav-link" onClick={handleLogOut}>Log Out</button>
+              <button className="nav-link text-light" onClick={handleLogOut}>Log Out</button>
             </>
             }
           </div>

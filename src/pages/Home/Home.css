@@ -1,5 +1,5 @@
 .Home {
-    height: 94vh;
+    height: 93.2vh;
     /* margin-top: 55px; */
     /* text-align: center; */
 }
@@ -13,7 +13,7 @@
     padding-top: 20px;
     width: 20vw;
     border-right: 1px solid grey;
-    background-color: yellow;
+    background-color:#1E90FF;
 }
 
 .Home .sideBar .homeOptionButtons {
@@ -22,13 +22,14 @@
 }
 
 .Home .sideBar .homeOptionButtons button {
-    background-color: azure;
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 0px;
     margin-bottom: 5px;
+    font-size: 20px;
 }
 
 .Home .sideBar .homeOptionButtons button:hover {
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .Home .mainContent {
