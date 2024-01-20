@@ -8,14 +8,12 @@
 .NavBar.navbar .navbar-brand {
     font-weight: 700;
     font-size: 25px;
-    color: white;
 }
 
 .NavBar.navbar .navbar-nav {
     width: 60%;
     /* display: flex; */
     justify-content: flex-end;
-    color: white;
 }
 
 .NavBar.navbar .navbar-nav button {
