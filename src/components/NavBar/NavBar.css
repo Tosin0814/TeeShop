@@ -1,6 +1,8 @@
 .NavBar.navbar {
     background-color: salmon;
     width: 100%;
+    /* position: fixed; */
+    /* top: 0px; */
 }
 
 .NavBar.navbar .navbar-brand {

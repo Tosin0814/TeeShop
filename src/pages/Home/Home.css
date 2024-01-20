@@ -1,5 +1,21 @@
 .Home {
-    height: 100vh;
-    padding-top: 20px;
+    height: 94vh;
+    /* margin-top: 55px; */
     /* text-align: center; */
+}
+
+.Home .contentContainer {
+    /* background-color: greenyellow; */
+    height: 100%;
+}
+
+.Home .sideBar {
+    padding-top: 20px;
+    width: 20vw;
+    border-right: 1px solid grey;
+    background-color: yellow;
+}
+
+.Home .mainContent {
+    padding: 20px;
 }
